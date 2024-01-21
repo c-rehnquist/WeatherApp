@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d93a2ab5-5d54-4c6d-af56-acd647db4903" name="Changes" comment="" />
+    <list default="true" id="d93a2ab5-5d54-4c6d-af56-acd647db4903" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/caleb/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,6 +29,9 @@
   &quot;associatedIndex&quot;: 6
 }</component>
   <component name="ProjectId" id="2bEsnSkqcPx8Z5sjvtrHEfa5pJG" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -31,10 +39,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Main.executor": "Run",
+    "Maven.weatherApp [clean,install,-x].executor": "Run",
     "Maven.weatherApp [clean,install].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/crehn/OneDrive/Desktop/Coding/Java/WeatherApp",
     "node.js.detected.package.eslint": "true",
@@ -43,7 +51,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
+    "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
@@ -51,13 +59,14 @@
 }]]></component>
   <component name="RunAnythingCache">
     <option name="myCommands">
+      <command value="mvn clean install -x" />
       <command value="mvn clean install" />
     </option>
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="me.caleb.Main" />
-      <module name="WeatherApp" />
+      <module name="weatherApp" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="me.caleb.*" />
@@ -107,7 +116,7 @@
       <workItem from="1705792016842" duration="61000" />
       <workItem from="1705792089239" duration="527000" />
       <workItem from="1705792630394" duration="3175000" />
-      <workItem from="1705796046467" duration="399000" />
+      <workItem from="1705796046467" duration="2647000" />
     </task>
     <servers />
   </component>
